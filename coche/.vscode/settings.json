@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "freertosconfig.h": "c",
+        "*.inc": "c",
+        "future": "c",
+        "*.tcc": "c",
+        "sdkconfig.h": "c",
+        "esp_task_wdt.h": "c",
+        "freertos.h": "c"
+    }
+}

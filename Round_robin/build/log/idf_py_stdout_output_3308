@@ -1,0 +1,23 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/get-started/Round_robin/main/main.c: In function 'Task_Print1':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/get-started/Round_robin/main/main.c:14:17: warning: unused variable 'j' [-Wunused-variable]
+   14 |             int j=i;
+      |                 ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/get-started/Round_robin/main/main.c: In function 'Task_Print2':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/get-started/Round_robin/main/main.c:25:17: warning: unused variable 'j' [-Wunused-variable]
+   25 |             int j=i;
+      |                 ^
+[2/9] Linking C static library esp-idf\main\libmain.a
+[3/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.1-2\examples\get-started\Round_robin\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/get-started/Round_robin/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable Round_robin.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/get-started/Round_robin/build/Round_robin.bin
+[7/7] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.1-2\examples\get-started\Round_robin\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/get-started/Round_robin/build/partition_table/partition-table.bin C:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/get-started/Round_robin/build/Round_robin.bin"
+Round_robin.bin binary size 0x2b220 bytes. Smallest app partition is 0x100000 bytes. 0xd4de0 bytes (83%) free.
